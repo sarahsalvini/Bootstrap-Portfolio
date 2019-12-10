@@ -1,0 +1,232 @@
+body {
+    background-image: url(../images/wall.png);
+    margin: auto;
+}
+
+
+html {
+	position:relative;
+	min-height: 100%;
+}
+
+
+header, h1, h2, {
+    background-color: #ffffff;
+    font-family: "Georgia", Times, Times New Roman, serif;
+    bottom: 0;  
+}
+
+
+a {text-decoration: none; }
+
+
+p, ::placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    margin-bottom: 0px;
+    padding: 20px;
+    background-color: white;
+}
+
+.container {
+    padding-right: 160px;
+    padding-left: 130px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+.navbar-brand {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 27px;
+    font-weight: bold;
+    font-family: "Georgia", Times, Times New Roman, serif;
+    bottom: 0;
+    padding: 40px;
+    text-align: center;
+}
+
+#overhead {
+	height:90px;
+    width:100%;
+    background-color: #ffffff;
+    border-bottom: solid #cccccc;
+	font-size: 18px;
+}
+
+
+#portfolio {
+    float: right;
+    color: #777777;
+    padding: 30px 10px 0px 0px;
+    margin-right: 15px;
+    margin-top: 25px;
+} 
+
+
+#about {
+    float: right;
+    color: #777777;
+    padding: 30px 10px 0px 0px;
+    margin-right: 15px;
+    margin-top: 25px;
+}
+
+
+#contact {
+    float: right;
+    color: #777777;
+    padding: 30px 10px 0px 0px;
+    margin-right: 10em;
+    margin-top: 25px;
+}
+
+
+#name {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    margin-left: 10em;
+    margin-top: 25px;
+    position: relsticative;
+    float: left;
+    font-size: 24px;
+    padding: 20px 25px 20px 25px;
+}
+
+
+.aboutContainer {
+	background-color: #ffffff;
+    margin: 0px auto;
+    width: 960px;
+	margin-top:30px;
+    overflow: auto;
+    margin-bottom: 10%;
+ }
+
+
+#bioPicture {
+	float: left;
+	margin-top: 20px;
+    margin-right: 20px;
+    padding-left: 30px;
+}
+
+
+#aboutMe {
+	color:#4aaaa5;
+    border-bottom: solid #dddddd;
+    padding-left: 30px;	
+}
+
+
+ #aboutBody {
+ 	background-color: #ffffff;
+ 	font-size: 18px;
+    color:#777777;
+    line-height: 30px;
+    padding: 30px;
+}
+
+
+.portfolioContainer {
+	background-color: #ffffff;
+    margin: 0px auto;
+    width: 960px;
+	margin-top:30px;
+    margin-bottom: 10%;
+    overflow: auto;
+ }
+
+
+ .box {
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin: 10px 30px 30px 0;
+    margin-top: 20px;
+}
+
+
+ #inner {
+    height:25%;
+    width:100%;
+    background-color: #4aaaa5;
+    color:white;
+    font-family: 'Georgia', "Times", "Times New Roman", "serif";
+    font-size: 20px;
+    text-align:center; 
+    line-height: 192%;
+    position: relative;
+    top:60%;
+}
+
+.portbox{
+    height:100%;
+    padding-left: 30px;
+    text-align:center;
+    float: left;
+}
+
+.contactContainer {
+	background-color: #ffffff;
+    margin: 0px auto;
+    width: 960px;
+	margin-top:30px;
+    overflow: auto;
+    margin-bottom: 10%;
+ }
+
+
+ .form {
+	padding:20px;
+	border-top: solid 1px #dddddd;
+	color:#777777;
+}
+
+
+input, text area {
+	margin-top: 8px;
+	padding:10px;
+    width: 100%;
+    font-size: 12px;
+}
+
+textarea {
+    height: 100px;
+    width: 100%;
+    margin-bottom: 0px;
+    border: solid 1px #dddddd;
+    margin-top: 8px;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.submit {
+	margin: 0px;
+	width:125px;
+	height: 45px;
+	margin-bottom:0px;
+	background-color: #4aaaa5;
+    color:white;
+    font-size: 18px;
+	border: none;
+}
+
+.footer {
+    clear: both;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(102, 102, 102);
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    position: sticky;
+    bottom: 0px;
+    margin-bottom: -20px;
+    left: 0px;
+    border-top: 8px solid #4aaaa5;
+}
