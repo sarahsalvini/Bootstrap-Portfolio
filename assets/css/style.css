@@ -23,7 +23,7 @@ body {
     padding: 10px;
   }
 
-.container-fluid {
+.container1 {
     background-color: #ffffff;
     border-bottom: #cccccc solid 2px;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
@@ -65,4 +65,20 @@ body {
   }
   
 
-
+/* footer style */
+#footer {
+    clear: both;
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(102, 102, 102);
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    bottom: 0px;
+    margin-bottom: -20px;
+    left: 0px;
+    border-top: 5px solid #4aaaa5;
+}
