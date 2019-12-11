@@ -1,5 +1,6 @@
 body {
     background: url(../images/wall.png);
+    margin-bottom: 150px;
 }
 
 /* Navbar Styles: Header and Page Links */
@@ -23,11 +24,12 @@ body {
     padding: 10px;
 }
 
-.container1 {
+.entireNav {
     background-color: #ffffff;
     border-bottom: #cccccc solid 2px;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     height: 100%;
+    margin: auto;
 }
 
 
@@ -35,6 +37,7 @@ body {
 #contentPlacement {
     padding-top: 60px;
 }
+
 
 /* main content styles*/
 .mainContent {
@@ -49,14 +52,13 @@ body {
     color: #4aaaa5;
     font-size: 30px;
     margin: 20px;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
     padding: 15px;
     border-bottom: #cccccc solid 1px;
 }
 
 #bioPicture {
-    margin-left: 15px;
-    border: #dddddd solid 1px;
+    margin-left: 5px;
 }
   
 p {
@@ -66,17 +68,17 @@ p {
   
 /* Portfolio content styles */
 
-.portOverview {
-    min-width: 100%;
-    min-height: 100%;
-    padding-bottom: 100px;
-    height: 100px;
-    margin-left: 100px;
-  }
+.portContent {
+    background-color: #ffffff;
+    border: 1px #dddddd solid;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    padding-left: 20px;
+}
 
 h3 {
     background-color: #4aaaa5;
-    color: #dddddd;
+    color: white;
     text-align: center;
     height: fit-content;
     padding: 10px;
@@ -87,7 +89,7 @@ h3 {
     background-image: URL("../images/dark.jpeg");
     background-size: 100% 100%;
     height: 200px;
-    width: 250px;
+    width: 300px;
     border: #dddddd solid 2px;
     margin: 20px;
     padding: 0px;
@@ -98,7 +100,7 @@ h3 {
     background-image: URL("../images/code.jpeg");
     background-size: 100% 100%;
     height: 200px;
-    width: 250px;
+    width: 300px;
     border: #dddddd solid 2px;
     margin: 20px;
     padding: 0px;
@@ -109,7 +111,7 @@ h3 {
     background-image: URL("../images/meeting.jpeg");
     background-size: 100% 100%;
     height: 200px;
-    width: 250px;
+    width: 300px;
     border: #dddddd solid 2px;
     margin: 20px;
     padding: 0px;
@@ -119,7 +121,7 @@ h3 {
     background-image: URL("../images/phone.jpeg");
     background-size: 100% 100%;
     height: 200px;
-    width: 250px;
+    width: 300px;
     border: #dddddd solid 2px;
     margin: 20px;
     padding: 0px;
@@ -129,7 +131,7 @@ h3 {
     background-image: URL("../images/system.jpeg");
     background-size: 100% 100%;
     height: 200px;
-    width: 250px;
+    width: 300px;
     border: #dddddd solid 2px;
     margin: 20px;
     padding: 0px;
@@ -137,11 +139,8 @@ h3 {
 
 
 /* footer style */
-#footer {
-    clear: both;
-    position: absolute;
+footer {
     bottom: 0;
-    height: 50px;
     width: 100%;
     background-color: rgb(102, 102, 102);
     font-size: 10px;
@@ -149,7 +148,8 @@ h3 {
     text-align: center;
     line-height: 50px;
     bottom: 0px;
-    margin-bottom: -20px;
     left: 0px;
     border-top: 5px solid #4aaaa5;
+    position: fixed;
+    margin: -20;
 }
