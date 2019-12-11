@@ -12,7 +12,7 @@ body {
     margin-top: 25px;
     margin-left: 5em;
     margin-bottom: 0px;
-  }
+}
 
 .nav-link {
     float: right;
@@ -21,28 +21,28 @@ body {
     margin-top: 25px;
     margin-bottom: 0px;
     padding: 10px;
-  }
+}
 
 .container1 {
     background-color: #ffffff;
     border-bottom: #cccccc solid 2px;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     height: 100%;
-  }
+}
 
 
 /* main content container styles */
 #contentPlacement {
     padding-top: 60px;
-  }
+}
 
-  /* main content styles*/
+/* main content styles*/
 .mainContent {
     background-color: #ffffff;
     border: 1px #dddddd solid;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
-  }
+}
 
 #aboutMe {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
@@ -52,18 +52,89 @@ body {
     margin-bottom: 25px;
     padding: 15px;
     border-bottom: #cccccc solid 1px;
-  }
+}
 
-  #bioPicture {
+#bioPicture {
     margin-left: 15px;
     border: #dddddd solid 1px;
-  }
+}
   
-  p {
+p {
     padding: 10px;
     margin: 5px;
-  }
+}
   
+/* Portfolio content styles */
+
+.portOverview {
+    min-width: 100%;
+    min-height: 100%;
+    padding-bottom: 100px;
+    height: 100px;
+    margin-left: 100px;
+  }
+
+h3 {
+    background-color: #4aaaa5;
+    color: #dddddd;
+    text-align: center;
+    height: fit-content;
+    padding: 10px;
+    margin-top: 100px;
+  }
+
+#portpic1 {
+    background-image: URL("../images/dark.jpeg");
+    background-size: 100% 100%;
+    height: 200px;
+    width: 250px;
+    border: #dddddd solid 2px;
+    margin: 20px;
+    padding: 0px;
+    float: left;
+}
+
+#portpic2 {
+    background-image: URL("../images/code.jpeg");
+    background-size: 100% 100%;
+    height: 200px;
+    width: 250px;
+    border: #dddddd solid 2px;
+    margin: 20px;
+    padding: 0px;
+    float: left;
+}
+
+#portpic3 {
+    background-image: URL("../images/meeting.jpeg");
+    background-size: 100% 100%;
+    height: 200px;
+    width: 250px;
+    border: #dddddd solid 2px;
+    margin: 20px;
+    padding: 0px;
+}
+
+#portpic4 {
+    background-image: URL("../images/phone.jpeg");
+    background-size: 100% 100%;
+    height: 200px;
+    width: 250px;
+    border: #dddddd solid 2px;
+    margin: 20px;
+    padding: 0px;
+}
+
+#portpic5 {
+    background-image: URL("../images/system.jpeg");
+    background-size: 100% 100%;
+    height: 200px;
+    width: 250px;
+    border: #dddddd solid 2px;
+    margin: 20px;
+    padding: 0px;
+}
+
 
 /* footer style */
 #footer {
