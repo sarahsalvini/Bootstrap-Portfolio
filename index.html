@@ -3,13 +3,14 @@
 
   <head>
       <title>Bootcamp Portfolio</title>
-      <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
       <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
   </head>
   
 <!-- Header: teal box with name, navbar with linked pages -->
 <body>
+  <header>
     <div class="container-fluid">
       <div class="row">
           <div class="col-lg-4 navbar-dark">
@@ -31,32 +32,33 @@
       </div>
     </div>    
 </div>    
+</header>
+
+
+
+
+ <!-- Main content container -->
+ <div class="container" id="contentPlacement">
 
 <!-- Main: about me, bio picture, bio text -->
-
-<div id="main">
-  <div id="middle" class="container">
-    <div class="row">
-
-      <div class="col-12">
-
-          <section class="aboutContainer">
-              <div id="aboutMe"><h2>About Me</h2></div>
-              <div><img id="bioPicture" src="Assets/images/profilepic.jpeg" alt="profile picture"></div>
-              <div id="aboutBody">
-                <p>
-                  Sarah Salvini is currently attending the Full Stack Coding Bootcamp at the University of Kansas. She is working towards gaining more knowledge and entering the tech field. She obtained a bachelors degree of science in Journalism from the University of Kansas and William Allen White School of Journalism and Mass Communications. Her degree was focused on strategic communication with a concentration in public relations and marketing. 
-                  <br></br>
-                  Sarah has always enjoyed learning and developing new skills. She  started learning basic HTML for fun and decided to further her education. Her hope is to connect her degree in strategic communication to the knowledge she earns from the coding bootcamp.  
-                  <br></br>
-                </p>
-              </div>
-        
-            </section>
+      
+    <section class="mainContent">
+      <div class="row">
+        <h2 class="col-lg-11" id="aboutMe">About Me</h2>
       </div>
-    </div>
-  </div>
-</div>
+          <div class="row">
+              <div class="col-1"></div>
+              <img src="./assets/images/profilepic.jpeg" class="col-lg-3" id="bioPicture"/>
+              <p class="col-lg-7">Sarah Salvini is currently attending the Full Stack Coding Bootcamp at the University of Kansas. She is working towards gaining more knowledge and entering the tech field. She obtained a bachelors degree of science in Journalism from the University of Kansas and William Allen White School of Journalism and Mass Communications. Her degree was focused on strategic communication with a concentration in public relations and marketing.</p>
+          </div>
+          <div class="row">
+              <div class="col-1"></div>
+              <p class="col-lg-10">Sarah Salvini is currently attending the Full Stack Coding Bootcamp at the University of Kansas. She is working towards gaining more knowledge and entering the tech field. She obtained a bachelors degree of science in Journalism from the University of Kansas and William Allen White School of Journalism and Mass Communications. Her degree was focused on strategic communication with a concentration in public relations and marketing. 
+                  <br></br>
+                  Sarah has always enjoyed learning and developing new skills. She started learning basic HTML for fun and decided to further her education. Her hope is to connect her degree in strategic communication to the knowledge she earns from the coding bootcamp.</p>
+          </div>
+        </section>
+
 
 
 <!-- Footer -->
