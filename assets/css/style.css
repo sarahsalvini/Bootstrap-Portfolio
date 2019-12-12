@@ -66,7 +66,11 @@ p {
     padding: 10px;
     margin: 5px;
 }
-  
+
+#responsive {
+    width: 100%;
+    height: auto;
+}
 /* Portfolio content styles */
 
 .portContent {
