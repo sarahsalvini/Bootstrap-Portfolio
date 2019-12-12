@@ -34,7 +34,7 @@ body {
 
 
 /* main content container styles */
-#contentPlacement {
+#mainPlacement {
     padding-top: 60px;
 }
 
@@ -42,9 +42,10 @@ body {
 /* main content styles*/
 .mainContent {
     background-color: #ffffff;
-    border: 1px #dddddd solid;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    border: 1px #dddddd solid;
     color: #777777;
+    padding: 20px;
 }
 
 #aboutMe {
@@ -78,65 +79,65 @@ p {
 
 h3 {
     background-color: #4aaaa5;
-    color: white;
     text-align: center;
+    color: white;
     height: fit-content;
     padding: 10px;
-    margin-top: 100px;
+    margin-top: 130px;
   }
 
 #portpic1 {
     background-image: URL("../images/dark.jpeg");
-    background-size: 100% 100%;
+    background-size: 100%;
     height: 200px;
     width: 300px;
-    border: #dddddd solid 2px;
-    margin: 20px;
     padding: 0px;
+    margin: 20px;
     float: left;
 }
 
 #portpic2 {
     background-image: URL("../images/code.jpeg");
-    background-size: 100% 100%;
+    background-size: 100%;
     height: 200px;
     width: 300px;
-    border: #dddddd solid 2px;
-    margin: 20px;
     padding: 0px;
+    margin: 20px;
     float: left;
 }
 
 #portpic3 {
     background-image: URL("../images/meeting.jpeg");
-    background-size: 100% 100%;
+    background-size: 100%;
     height: 200px;
     width: 300px;
-    border: #dddddd solid 2px;
-    margin: 20px;
     padding: 0px;
+    margin: 20px;
 }
 
 #portpic4 {
     background-image: URL("../images/phone.jpeg");
-    background-size: 100% 100%;
+    background-size: 100%;
     height: 200px;
     width: 300px;
-    border: #dddddd solid 2px;
-    margin: 20px;
     padding: 0px;
+    margin: 20px;
 }
 
 #portpic5 {
     background-image: URL("../images/system.jpeg");
-    background-size: 100% 100%;
+    background-size: 100%;
     height: 200px;
     width: 300px;
-    border: #dddddd solid 2px;
-    margin: 20px;
     padding: 0px;
+    margin: 20px;
 }
 
+/* contact style */
+#button {
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
 
 /* footer style */
 footer {
@@ -153,3 +154,17 @@ footer {
     position: fixed;
     margin: -20;
 }
+
+/* Media Queries */
+@media only screen and (max-width: 960px) {
+    #erase {
+        display: none;
+    }
+  }
+  @media only screen and (max-width: 760px) {
+      #smallName {
+          width: 100%;
+          margin: 0px;
+          text-align: center;
+      }
+  }

@@ -2,7 +2,7 @@
 <html>
 
   <head>
-      <title>Bootcamp Portfolio</title>
+      <title>Sarah Salvini Portfolio</title>
       <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
       <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
@@ -10,52 +10,61 @@
   
 <!-- Header: teal box with name, navbar with linked pages -->
 <body>
-  <header class="entireNav">
-    <div class="container">
-      <div class="row">
-          <div class="col-lg-4 navbar-dark">
-              <h1 class="navbar-brand">Sarah Salvini</h1>
-          </div>
-      <div class="col-4"></div>
-      <div class="col-lg-4">
-          <ul class="nav" >
-              <li class="nav-item">
-                <a class="nav-link" href="./index.html">About Me</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="./portfolio.html">Portfolio</a>
-                </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./contact.html">Contact</a>
-              </li>
-          </ul>
-      </div>
-    </div>    
-</div>    
-</header>
+        <header class="entireNav">
+          <div class="container">
+            <div class="row">
+                <div class="col-lg-4 navbar-dark">
+                    <h1 class="navbar-brand" id="smallName">Sarah Salvini</h1>
+                </div>
+            <div class="col-4" id="erase"></div>
+            <div class="col-lg-4">
+                <ul class="nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="./index.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                      </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+          </div>    
+      </div>    
+      </header>
 
 
  <!-- Main content container -->
- <div class="container" id="contentPlacement">
+ <div class="container" id="mainPlacement">
 
 <!-- Main: about me, bio picture, bio text -->
       
-    <section class="mainContent">
-      <div class="row">
-        <h2 class="col-lg-11" id="aboutMe">About Me</h2>
-      </div>
-          <div class="row">
-              <div class="col-1"></div>
-              <img src="./assets/images/profilepic.jpeg" class="col-lg-3" id="bioPicture"/>
-              <p class="col-lg-7">Sarah Salvini is currently attending the Full Stack Coding Bootcamp at the University of Kansas. She is working towards gaining more knowledge and entering the tech field. She obtained a bachelors degree of science in Journalism from the University of Kansas and William Allen White School of Journalism and Mass Communications. Her degree was focused on strategic communication with a concentration in public relations and marketing.</p>
-          </div>
-          <div class="row">
-              <div class="col-1"></div>
-              <p class="col-lg-10">Sarah Salvini is currently attending the Full Stack Coding Bootcamp at the University of Kansas. She is working towards gaining more knowledge and entering the tech field. She obtained a bachelors degree of science in Journalism from the University of Kansas and William Allen White School of Journalism and Mass Communications. Her degree was focused on strategic communication with a concentration in public relations and marketing. 
-                  <br></br>
-                  Sarah has always enjoyed learning and developing new skills. She started learning basic HTML for fun and decided to further her education. Her hope is to connect her degree in strategic communication to the knowledge she earns from the coding bootcamp.</p>
-          </div>
-        </section>
+<form class="mainContent">
+
+    <div class="row" id>
+            <h2 class="col-lg-11" id="aboutMe">Contact</h2>
+        </div>
+
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Name</label>
+          <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
+        </div>
+
+
+        <div class="form-group">
+                <label for="exampleFormControlInput1">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+
+        <div class="form-group">
+                <label for="exampleFormControlTextarea1">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+
+            <button type="button" class="btn btn-link" id="button">Submit</button>
+
+      </form>
 
 <footer id="footer">Copyright</footer>
 
