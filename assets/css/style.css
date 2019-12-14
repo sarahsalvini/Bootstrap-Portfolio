@@ -67,10 +67,6 @@ p {
     margin: 5px;
 }
 
-#responsive {
-    width: 100%;
-    height: auto;
-}
 /* Portfolio content styles */
 
 .portContent {
@@ -137,6 +133,9 @@ h3 {
     margin: 20px;
 }
 
+.img-fluid {
+
+}
 /* contact style */
 #button {
     background-color: #4aaaa5;
@@ -178,3 +177,11 @@ footer {
         margin-left: 13em;
     }
   }
+@media only screen and (max-width: 860px){
+
+
+@media only screen and (max-width: 760px) {
+    .centered {
+        margin-left: 8em;
+    }
+}
