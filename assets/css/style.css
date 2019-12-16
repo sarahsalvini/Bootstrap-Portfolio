@@ -186,5 +186,11 @@ footer {
     .centered {
         margin-left: 8em;
     }
-
+    .wrap {
+        max-width: 500px;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
 }
