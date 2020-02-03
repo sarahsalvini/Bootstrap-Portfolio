@@ -49,3 +49,6 @@ On an xs screen, content should take up the entire screen. On sm and larger scre
 <b>Bonus</b>
 
 Using Bootstrap, make a sticky footer and use sub-rows and sub-columns on your portfolio site (Hint: Check out the Bootstrap documentation).
+<br>
+<br>
+view site: https://sarahsalvini.github.io/Bootstrap-Portfolio/
